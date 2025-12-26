@@ -10,5 +10,5 @@ The dataset focuses exclusively on casualties, describing:
 ### Unit of Observation:
 - One row  = one casualty (person).
 - Multiple casualties may be associated with:
-  1. The same collision (collision_index).
-  2. The same vehicle (vehicle_reference).
+  - The same collision (collision_index).
+  - The same vehicle (vehicle_reference).
