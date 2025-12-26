@@ -10,5 +10,12 @@ The dataset focuses exclusively on casualties, describing:
 ### Unit of Observation:
 - One row  = one casualty (person).
 - Multiple casualties may be associated with:
-  - The same collision (collision_index).
-  - The same vehicle (vehicle_reference).
+  - The same collision **(collision_index)**.
+  - The same vehicle **(vehicle_reference)**.
+### Feature Description:
+- Identifiers and Linking Fields:
+  - Unique identifier of the traffic collision: **collision_index**.
+  - Official reference number of the collision: **collision_ref_no**.
+  - Year in which the collision occurred: **collision_year**.
+  - Identifier of the vehicle associated with the casualty: **vehicle_reference**.
+  - Unique identifier of the casualty within the collision: **casualty_reference**.
